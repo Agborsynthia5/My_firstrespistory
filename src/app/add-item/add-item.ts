@@ -14,7 +14,7 @@ export class AddItem {
 
   submitTodo() {
     const task = this.newTask.value?.trim();
-    if.(task) {
+    if (task) {
       this.newTodo.emit(task);
       /*console.log(task); */
       this.newTask.setValue('');
